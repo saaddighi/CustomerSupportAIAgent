@@ -6,7 +6,7 @@ import streamlit as st
 from dotenv import load_dotenv
 import json
 
-# The complete API endpoint URL for this flow
+
 load_dotenv()
 APPLICATION_TOKEN = os.environ.get("APP_TOKEN") 
 
